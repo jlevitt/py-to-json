@@ -8,10 +8,10 @@ Script to convert a string representation of standard python data types to json.
 From the root folder: 
 
 ```
-> pip install .
+pip install .
 ```
 
 ### Example
 ```
-> echo "[1, 'foo', {'bar': 'baz'}]" | py-to-json | jq .
+echo "[1, 'foo', {'bar': 'baz'}]" | py-to-json | jq .
 ```
